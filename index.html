@@ -174,16 +174,7 @@ body.dark .about-quote{background:#292524}
 .t-name{font-weight:700;font-size:.875rem}
 .t-role{font-size:.75rem;color:var(--mt)}
 
-/* PRICING */
-.pricing-box{max-width:700px;margin:0 auto}
-.price-table{background:var(--sur);border-radius:var(--r);overflow:hidden;box-shadow:var(--shl);border:1px solid var(--bdr)}
-.price-table table{width:100%;border-collapse:collapse}
-.price-table th{background:var(--or);color:#fff;padding:1rem 1.5rem;font-size:.82rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;text-align:left}
-.price-table td{padding:1rem 1.5rem;font-size:.95rem;font-weight:500;border-bottom:1px solid var(--bdr);color:var(--tx)}
-.price-table tr:last-child td{border-bottom:none;font-weight:800;font-size:1.05rem;color:var(--or)}
-.price-note{background:var(--or-l);border:1px solid #fed7aa;border-radius:.75rem;padding:1rem 1.5rem;margin-top:1.25rem;font-size:.9rem;line-height:1.6;color:#92400e}
-body.dark .price-note{background:#292524;border-color:#44301a;color:#fdba74}
-.price-btns{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;margin-top:2rem}
+
 
 /* FAQ */
 .faq-wrap{max-width:760px;margin:0 auto;display:flex;flex-direction:column;gap:.75rem}
@@ -303,7 +294,7 @@ footer{background:#1c1917;color:#a8a29e;padding:3.5rem 1.5rem 2rem}
           <a href="#faq">FAQ</a>
         </div>
       </div>
-      <a href="#pricing">Pricing</a>
+      
       <a href="#contact">Contact</a>
       <button class="icon-btn theme-toggle-btn" id="themeToggle" aria-label="Toggle dark mode">
         <svg class="sun-ico" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#ea580c" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
@@ -339,7 +330,7 @@ footer{background:#1c1917;color:#a8a29e;padding:3.5rem 1.5rem 2rem}
     <a href="#testimonials" onclick="closeMob()">Testimonials</a>
     <a href="#faq" onclick="closeMob()">FAQ</a>
   </div>
-  <a href="#pricing" onclick="closeMob()">Pricing</a>
+  
   <a href="#contact" onclick="closeMob()">Contact</a>
   <div class="mob-divider"></div>
   <div style="display:flex;align-items:center;gap:.75rem;padding:.5rem 1rem">
@@ -522,34 +513,7 @@ footer{background:#1c1917;color:#a8a29e;padding:3.5rem 1.5rem 2rem}
   </div>
 </section>
 
-<!-- PRICING -->
-<section id="pricing" class="sec">
-  <div class="sec-inner">
-    <div class="sec-hdr fi">
-      <div class="sec-divider"></div>
-      <h2>Simple, Affordable Fees</h2>
-      <p>Everything your child needs — abacus frame and all learning resources included in the first payment.</p>
-    </div>
-    <div class="pricing-box fi">
-      <div class="price-table">
-        <table>
-          <thead><tr><th>Item</th><th>Cost (&#8358;)</th></tr></thead>
-          <tbody>
-            <tr><td>Training Fee</td><td>&#8358;4,000</td></tr>
-            <tr><td>Abacus</td><td>&#8358;3,000</td></tr>
-            <tr><td>Other Learning Resources</td><td>&#8358;3,000</td></tr>
-            <tr><td><strong>Total (First Payment)</strong></td><td><strong>&#8358;10,000</strong></td></tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="price-note">&#128204; <strong>Note:</strong> After the first payment of &#8358;10,000, subsequent payments per term is <strong>&#8358;4,000 per child.</strong></div>
-      <div class="price-btns">
-        <a href="#contact" class="btn btn-orange">&#128222; Enrol Your Child</a>
-        <a href="https://wa.me/2348165736337" target="_blank" class="btn btn-wa">&#128172; Ask via WhatsApp</a>
-      </div>
-    </div>
-  </div>
-</section>
+
 
 <!-- FAQ -->
 <section id="faq" class="sec sec-alt">
@@ -565,7 +529,7 @@ footer{background:#1c1917;color:#a8a29e;padding:3.5rem 1.5rem 2rem}
       </div>
       <div class="faq-item">
         <button class="faq-q" onclick="toggleFaq(this)">How much does it cost to enrol?<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
-        <div class="faq-ans"><p>The first payment is &#8358;10,000 covering training fee (&#8358;4,000), the abacus (&#8358;3,000), and other learning resources (&#8358;3,000). Subsequent payments per term are &#8358;4,000 per child.</p></div>
+        <div class="faq-ans"><p>Please contact us directly via WhatsApp or the form below and we will provide you with the current fee structure for your school or child.</p></div>
       </div>
       <div class="faq-item">
         <button class="faq-q" onclick="toggleFaq(this)">How long does the program take?<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
@@ -593,13 +557,14 @@ footer{background:#1c1917;color:#a8a29e;padding:3.5rem 1.5rem 2rem}
     </div>
     <div class="contact-grid">
       <div class="contact-form-box fi">
-        <form id="contactForm" onsubmit="handleSubmit(event)">
-          <div class="form-group"><label for="name">Full Name</label><input type="text" id="name" placeholder="Your full name" required/></div>
-          <div class="form-group"><label for="email">Email Address</label><input type="email" id="email" placeholder="you@example.com" required/></div>
+        <form id="contactForm" action="https://formspree.io/f/xnjglvbe" method="POST" onsubmit="handleSubmit(event)">
+          <div class="form-group"><label for="name">Full Name</label><input type="text" id="name" name="name" placeholder="Your full name" required/></div>
+          <div class="form-group"><label for="email">Email Address</label><input type="email" id="email" name="email" placeholder="you@example.com" required/></div>
+          <div class="form-group"><label for="phone">Phone / WhatsApp Number</label><input type="tel" id="phone" name="phone" placeholder="+234 800 000 0000"/></div>
           <div class="form-group"><label for="program">Interested Program</label>
-            <select id="program"><option value="">Select a program</option><option>Abacus Mental Math</option><option>Handwriting Improvement</option><option>Vedic Mathematics</option><option>English Grammar</option></select>
+            <select id="program" name="program"><option value="">Select a program</option><option>Abacus Mental Math</option><option>Handwriting Improvement</option><option>Vedic Mathematics</option><option>English Grammar</option></select>
           </div>
-          <div class="form-group"><label for="message">Message</label><textarea id="message" placeholder="Tell us about your child's needs..."></textarea></div>
+          <div class="form-group"><label for="message">Message</label><textarea id="message" name="message" placeholder="Tell us about your child's needs..."></textarea></div>
           <button type="submit" class="submit-btn" id="submitBtn">&#9993; Send Message</button>
           <div class="form-success" id="formSuccess">&#10003; Message sent! We'll contact you soon.</div>
         </form>
@@ -656,7 +621,7 @@ footer{background:#1c1917;color:#a8a29e;padding:3.5rem 1.5rem 2rem}
         <a href="#gallery">Gallery</a>
         <a href="#testimonials">Testimonials</a>
         <a href="#faq">FAQ</a>
-        <a href="#pricing">Pricing</a>
+        
       </div>
       <div class="footer-col">
         <h4>Contact</h4>
@@ -680,7 +645,7 @@ footer{background:#1c1917;color:#a8a29e;padding:3.5rem 1.5rem 2rem}
 
 <script>
 // Email assembly (avoids Cloudflare mangling)
-document.getElementById('emailVal').textContent = 'astarlearninginstitute' + '@' + 'gmail.com';
+document.getElementById('emailVal').textContent = 'astarlearninginstitute192' + '@' + 'gmail.com';
 
 // Copyright year
 document.getElementById('yr').textContent = new Date().getFullYear();
@@ -746,17 +711,31 @@ function toggleFaq(btn) {
 function handleSubmit(e) {
   e.preventDefault();
   var btn = document.getElementById('submitBtn');
+  var form = document.getElementById('contactForm');
   btn.textContent = 'Sending...';
   btn.disabled = true;
-  setTimeout(function() {
+  var data = new FormData(form);
+  fetch('https://formspree.io/f/xnjglvbe', {
+    method: 'POST',
+    body: data,
+    headers: { 'Accept': 'application/json' }
+  }).then(function(response) {
     btn.textContent = 'Send Message';
     btn.disabled = false;
-    document.getElementById('formSuccess').style.display = 'block';
-    document.getElementById('contactForm').reset();
-    setTimeout(function() {
-      document.getElementById('formSuccess').style.display = 'none';
-    }, 4000);
-  }, 1500);
+    if (response.ok) {
+      document.getElementById('formSuccess').style.display = 'block';
+      form.reset();
+      setTimeout(function() {
+        document.getElementById('formSuccess').style.display = 'none';
+      }, 5000);
+    } else {
+      alert('Oops! Something went wrong. Please try again or contact us on WhatsApp.');
+    }
+  }).catch(function() {
+    btn.textContent = 'Send Message';
+    btn.disabled = false;
+    alert('Oops! Something went wrong. Please try again or contact us on WhatsApp.');
+  });
 }
 
 // SCROLL REVEAL
